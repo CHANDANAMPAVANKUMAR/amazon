@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Amazon</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+    
+    #header {
+      background-color: #232f3e;
+      color: #ffffff;
+      padding: 10px;
+      text-align: center;
+    }
+    
+    #container {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 20px;
+    }
+    
+    #product {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      margin-top: 50px;
+    }
+    
+    #product img {
+      max-width: 300px;
+      margin-bottom: 20px;
+    }
+    
+    #product .title {
+      font-size: 24px;
+      font-weight: bold;
+      margin-bottom: 10px;
+    }
+    
+    #product .price {
+      font-size: 18px;
+      color: #B12704;
+      margin-bottom: 10px;
+    }
+    
+    #product .buy-button {
+      background-color: #f0c14b;
+      color: #111111;
+      font-size: 16px;
+      padding: 10px 20px;
+      border: none;
+      cursor: pointer;
+    }
+    
+    #footer {
+      background-color: #232f3e;
+      color: #ffffff;
+      padding: 10px;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+  <div id="header">
+    <h1>Welcome to Amazon</h1>
+  </div>
+  
+  <div id="container">
+    <div id="product">
+      <img src="../project1/download.jpg"  alt="iPhone 14pro">
+      <div class="title">iPhone 14pro</div>
+      <div class="price">$0.99</div>
+      <button class="buy-button">
+        <a href="../project1/bill.html" target="_blank">
+            <span style="color: rgb(0, 0, 0);">Buy Now</span>
+        </a>
+      
+      </button>
+      
+    </div>
+  </div>
+  <div id="footer">
+    &copy; 2023 Amazon. All rights reserved.
+  </div>
+</body>
+</html>
